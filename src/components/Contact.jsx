@@ -47,9 +47,9 @@ export default function Contact() {
           <button type="submit">Send Message</button>
         </form>
         <div className="social-links">
-          <a href="https://github.com/yourname" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:your.email@gmail.com">Email</a>
+          <a href="https://github.com/sureshkumarks1" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/sureshkumarksdev" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:sureshkumarksdev@gmail.com">Email</a>
         </div>
       </div>
     </section>

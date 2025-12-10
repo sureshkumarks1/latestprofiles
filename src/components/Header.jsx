@@ -64,7 +64,7 @@ export default function Header() {
     <header className="header">
       <nav className="navbar">
         <div className="logo">
-          <h1>Your Name</h1>
+          <h1>SURESH KUMAR K S</h1>
         </div>
         <ul className="nav-links">
           <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a></li>
