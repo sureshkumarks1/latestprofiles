@@ -7,12 +7,15 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { Toaster } from 'react-hot-toast';
 import './App.css';
 
 function App() {
   return (
+
     <ThemeProvider>
       <div className="App">
+        <Toaster position="top-right" />
         <Header />
         <Home />
         <About />

@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Skills() {
   const skills = {
-    "Frontend": ["React", "JavaScript", "HTML/CSS", "Tailwind CSS", "Redux"],
+    "Frontend": ["React", "JavaScript", "HTML/CSS", "Tailwind CSS", "Redux toolkit", "Redux thunk", "Redux saga", "MUI" ],
     "Backend": ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "REST APIs"],
-    "Tools": ["Git", "GitHub", "VS Code", "Postman", "Docker"],
+    "Tools": ["Git", "GitHub", "VS Code", "Postman", "Docker","AWS"],
     "Other": ["MERN Stack", "Responsive Design", "Problem Solving", "Agile"]
   };
 
