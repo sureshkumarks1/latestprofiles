@@ -4,6 +4,14 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Zomato clone frontend",
+      description: "zomato clone",
+      tech: ["HTML", "CSS","JS"],
+      github: "https://github.com/sureshkumarks1/zomato.git",
+      live: "https://silly-salmiakki-fa9941.netlify.app/"
+    },
+    {
+      id: 4,
       title: "E-Commerce Platform",
       description: "Full-stack MERN application with payment gateway integration",
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
@@ -12,11 +20,11 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Real-time task tracker with user authentication",
-      tech: ["React", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/yourname/taskapp",
-      live: "https://example.com"
+      title: "Online code compiler",
+      description: "Real-time code compiler",
+      tech: ["React", "Javascript", "Tailwind CSS"],
+      github: "https://github.com/sureshkumarks1/codconv.git",
+      live: "https://codconv.netlify.app/"
     },
     {
       id: 3,
@@ -26,6 +34,7 @@ export default function Projects() {
       github: "https://github.com/yourname/weather",
       live: "https://example.com"
     }
+    
   ];
 
   return (
